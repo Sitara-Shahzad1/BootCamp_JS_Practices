@@ -92,7 +92,7 @@ const isPalindrome = (num) => {
   while (num > 0) {
     let digit = num % 10;           // Get last digit
     reversed = reversed * 10 + digit; // Add digit to reversed number
-    num = Math.floor(num / 10);     // Remove last digit
+    num = Math.floor(num / 10);     // Remove last digi
   }
 
   if (reversed === originalNum) {
@@ -102,6 +102,6 @@ const isPalindrome = (num) => {
   }
 };
 
-isPalindrome(121); // ✅
-isPalindrome(123); // ❌
-isPalindrome(12321); // ✅
+isPalindrome(121); 
+isPalindrome(123); 
+isPalindrome(12321); 
