@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kids Quiz APP</title>
+</head>
+<body>
+  
+  <h1>Amazing Kids Quiz APP </h1>
+
+
+  
+    <h3>Let's Guess your name Using Random </h3>
+    <p id="demo"> </p>
+    <Button onclick="document.getElementById('demo').innerHTML = getRndInteger(1,10)"> Generate Random </Button>
+    
+  
+
+
+
+
+  <script>
+
+function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
+
+  
+  </script>
+
+</body>
+</html>
